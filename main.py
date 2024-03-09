@@ -16,7 +16,7 @@ def main():
 
 
     # les données d'entrées:
-    st.header("2. Donner les informations suivantes")
+    st.header("1. Donner les informations suivantes")
 
     # Année
     year = st.selectbox('Année', [2023, 2024, 2025], index=0)
@@ -86,7 +86,7 @@ def main():
             st.markdown(economic_article)
             st.session_state.economic_article = economic_article
         else:
-            st.warning("Please upload a resume and provide a job listing.")
+            st.warning("Please Add required infos.")
 
     # Output Cover Letter
     if st.session_state.economic_article is not None:
