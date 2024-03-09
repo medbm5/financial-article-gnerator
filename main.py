@@ -92,7 +92,7 @@ def main():
     if st.session_state.economic_article is not None:
         if st.button("Copy to Clipboard"):
             pyperclip.copy(st.session_state.economic_article)
-            st.success("Cover letter copied to clipboard!")
+            st.success("Article copied to clipboard!")
 
 
 if __name__ == "__main__":
