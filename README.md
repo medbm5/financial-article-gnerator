@@ -1,14 +1,14 @@
-# Générateur de Lettres de Motivation avec LLm
+# Générateur d'article financière avec LLMs
 
 ## Introduction
 
-Ce projet propose un générateur de lettres de motivation, exploitant la puissance de l'API ChatGPT d'OpenAI pour aider les utilisateurs à créer des lettres de motivation personnalisées et convaincantes pour leurs candidatures d'emploi.
+Dans ce documents nous allons parler sur les différentes étapes d'implémentation d’un LLm en utilisant openai API et stremlit pour l’interface utilisateur pour créer un projet de génération des articles financière sur l’anticipation de  l’inflation.
+
 
 
 ## LLM utilisé
 Le LLM utilisé est gpt-3.5-turbo pour sa rentabilité et ses capacités impressionnantes dans la gamme de prix donnée.
 Les modèles locaux ont été évités en raison d'un manque de ressources de calcul disponibles. Cependant, la conception à travers LangChain permet de passer facilement à des modèles alternatifs. Le repo contient un prompt principal, conçu avec des instructions détaillées se concentrant sur un style des articles financiers. Ce prompt peut facilement être modifié.
-
 
 ## Etapes
 
